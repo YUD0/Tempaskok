@@ -11,10 +11,10 @@ jobs:
     - name: DOWNLOAD NGROK ACCESS
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/Bang-Sahrul-Gunawan-Cyber/SIMPLE-RDP-SERVER-WIN10/main/start.bat -OutFile start.bat
-        Invoke-WebRequest https://github.com/Bang-Sahrul-Gunawan-Cyber/SIMPLE-RDP-SERVER-WIN10/raw/main/wallpaper.png -OutFile wallpaper.png
-        Invoke-WebRequest https://raw.githubusercontent.com/Bang-Sahrul-Gunawan-Cyber/SIMPLE-RDP-SERVER-WIN10/main/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/Bang-Sahrul-Gunawan-Cyber/SIMPLE-RDP-SERVER-WIN10/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Bang-Sahrul-Gunawan-Cyber/SIMPLE-RDP-SERVER-WIN10/master/start.bat -OutFile start.bat
+        Invoke-WebRequest https://github.com/Bang-Sahrul-Gunawan-Cyber/SIMPLE-RDP-SERVER-WIN10/raw/master/wallpaper.png -OutFile wallpaper.png
+        Invoke-WebRequest https://raw.githubusercontent.com/Bang-Sahrul-Gunawan-Cyber/SIMPLE-RDP-SERVER-WIN10/master/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Bang-Sahrul-Gunawan-Cyber/SIMPLE-RDP-SERVER-WIN10/master/loop.bat -OutFile loop.bat
     - name: DOWNLOAD WALLPAPER HD
       run: |
     - name: MENGEXTRAK FILE NGROK
